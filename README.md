@@ -1,6 +1,6 @@
 
 # Advent of Code
 
-[Website](adventofcode.com/)
+[Website](https://www.adventofcode.com/)
 
 puzzles done in C
