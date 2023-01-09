@@ -11,7 +11,7 @@ int main() {
 	ubCals = 0, elfSum = 0;
 
 	while(fgets(n,32,input) != NULL) {
-		if(n[0] == '\n') {		// if empty line then check sum against ubCals
+		if(n[0] == '\n') {		// if empty line then check against highest sum
 			if(elfSum > ubCals) {
 				ubCals = elfSum;
 			}

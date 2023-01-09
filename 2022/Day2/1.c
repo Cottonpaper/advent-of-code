@@ -9,7 +9,7 @@ int totalPoints(char o, char u) {
 	int uI = u - 'X';
 
 	int pointTable[3][3] = {	//	[your move] * [opponent]
-		{1+3, 1+0, 1+6},	    //	shape points + outcome points
+		{1+3, 1+0, 1+6},		//	shape points + outcome points
 		{2+6, 2+3, 2+0},
 		{3+0, 3+6, 3+3}
 	};
